@@ -8,6 +8,13 @@
       href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
     <title>Homepage</title>
@@ -16,27 +23,31 @@
   <body>
     <div class="container">
       <div class="background"></div>
-      <div class="quote"></div>
-      <div>
-        <div class="clock"></div>
-        <div class="session"></div>
-        <div class="date"></div>
-        <div class="holiday"></div>
-      </div>
       <div class="weather">
-        <div>
+        <div class="weather_search">
           <input
             type="text"
             class="search_field"
-            placeholder="Zipcode or city name"
+            placeholder="City"
+            value="South Pasadena"
           />
-          <button class="searchbut" onclick="">Search</button>
         </div>
-        <div class="temp">73</div>
+        <div class="weather_description"></div>
+        <div class="temp"></div>
+        <div class="icon_div"></div>
+        <i class="fas fa-edit icon"></i>
       </div>
-      <div class="articles">
-        
+      <div class="quote"></div>
+      <div class="main">
+        <div>
+          <div class="clock"></div>
+          <div class="session"></div>
+          <div class="date"></div>
+          <div class="holiday"></div>
+        </div>
+        <div class="quote"></div>
       </div>
+      <div class="articles"></div>
     </div>
   </body>
 </html>
