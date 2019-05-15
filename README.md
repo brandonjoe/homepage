@@ -8,3 +8,6 @@ As of right now, the site is tailored to me. I plan in the future to set up a no
 
 Future plans for app:
 I also want the search function for the weather to be more loose. As of right now, it needs have an exact name and any errors aren't corrected for. I also want to make sure that zipcodes work too. I should shortly include a download button to the daily background in case anyone wants to download a full resolution image without dabbling with the developer tools. 
+
+
+[Live Demo](https://brandonjoe.github.io/homepage/)
